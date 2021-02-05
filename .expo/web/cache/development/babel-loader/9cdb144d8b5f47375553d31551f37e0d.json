@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var ADD_SCORE = 'ADD_SCORE';","map":{"version":3,"sources":["/Users/andersson/Desktop/My JS Works/React Works/Mobile Apps by React-Native/Whack a mole game/my-project/redux/actionTypes.js"],"names":["ADD_SCORE"],"mappings":"AAAA,OAAO,IAAMA,SAAS,GAAG,WAAlB","sourcesContent":["export const ADD_SCORE = 'ADD_SCORE'"]},"metadata":{},"sourceType":"module"}
