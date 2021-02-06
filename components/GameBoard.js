@@ -39,8 +39,6 @@ const GameBoard = (props) => {
           <Square></Square>
           <Square></Square>
           <Square></Square>
- 
-          <Text style={styles.footer}>Gelistiren: Firat Goktepe</Text>
         </View>
       </ImageBackground>
       
@@ -65,11 +63,6 @@ const styles = StyleSheet.create({
       color: '#FF8033',
       marginBottom: 30,
       marginTop: 100
-    },
-    footer: {
-      fontStyle: 'italic',
-      marginTop: 50,
-      marginLeft: 70
     },
 
   });
