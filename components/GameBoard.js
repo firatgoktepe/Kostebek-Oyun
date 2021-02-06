@@ -40,7 +40,7 @@ const GameBoard = (props) => {
 
           
           <Button
-            onPress={ () => console.log('Tiklandi!') }
+            onPress={ () => console.log('Clicked!') }
             title="YENI OYUN"
             color="#841584"
             accessibilityLabel="Start a new game"
