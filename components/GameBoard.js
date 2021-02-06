@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import { StyleSheet, Text, View, ImageBackground, Button } from 'react-native'
+import { StyleSheet, Text, View, ImageBackground } from 'react-native'
 import Square from './Square.js'
 import { connect } from 'react-redux'
 
 const GameBoard = (props) => {
   const [timeLeft, setTimeLeft] = useState(60)
+
 
   useEffect(() => {
     if(!timeLeft) return
@@ -17,6 +18,7 @@ const GameBoard = (props) => {
 
 
     return (
+
         <ImageBackground 
         style={styles.container}
         source={require('../assets/background.png')}
@@ -37,14 +39,7 @@ const GameBoard = (props) => {
           <Square></Square>
           <Square></Square>
           <Square></Square>
-
-          
-          <Button
-            onPress={ () => console.log('Clicked!') }
-            title="YENI OYUN"
-            color="#841584"
-            accessibilityLabel="Start a new game"
-          />  
+ 
           <Text style={styles.footer}>Gelistiren: Firat Goktepe</Text>
         </View>
       </ImageBackground>

@@ -23,6 +23,7 @@ const Square = (props) => {
         setGameOver(true)
     }
 
+
     return (
         <TouchableOpacity onPress={moleActive? props.addScore : null}>
             <Image 
