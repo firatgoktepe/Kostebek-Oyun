@@ -1,3 +1,3 @@
 # Kostebek-Oyun
 
-## Kostebekleri yakalama oyunu - React Native ile expo platformunda gelistirilmistir
+Kostebekleri yakalama oyunu - React Native ile expo platformunda gelistirilmistir
