@@ -1,4 +1,4 @@
-# Kostebek-Oyun
+# Kostebek Oyunu
 
  ### Kostebekleri yakalama oyunu 
 
