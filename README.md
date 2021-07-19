@@ -1,4 +1,4 @@
-# Kostebek Oyunu
+# Kostebek Oyunu (Catch a mole game)
 
  ### Kostebekleri yakalama oyunu 
 
